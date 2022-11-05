@@ -28,5 +28,16 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 Inicializa PRISMA
 npx prisma studio
 
+Migrar base de datos a PRISMA
+npx prisma migrate dev = para las categorias
+
+Agregar datos a bd en PRISMA
+npx prisma db seed
+
+Reset data from PRISMA
+npx prisma migrate reset
+
+
+
 
 ###End
