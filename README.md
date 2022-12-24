@@ -40,4 +40,4 @@ npx prisma migrate reset
 
 
 
-###End
+###End# QuioskoNextApp
