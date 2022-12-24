@@ -20,7 +20,8 @@ const Categoria = ({ categoria }) => {
                 alt='imagen de icono'
             />
             <button type="button"
-                className="text-2xl font-bold hover:cursor-pointer"
+                className="sm:text-xl first:text-2xl  
+                font-bold  hover:cursor-pointer"
                 onClick={() => handleClickCategoria(id)}
             >
                 {nombre}

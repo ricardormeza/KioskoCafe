@@ -15,7 +15,7 @@ const Sidebar = () => {
         />
 
         {/* CONSUMIR API DESDE COMPONENT */}
-        <nav className="mt-10">
+        <nav className="mt-10 ">
           {categorias.map(categoria => (
             <Categoria 
               key={categoria.id}
